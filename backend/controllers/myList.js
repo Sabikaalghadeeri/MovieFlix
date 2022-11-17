@@ -1,5 +1,5 @@
 // We import the Model to communicate with the Database
-const List = require('../models/List')
+const List = require('../models/MyList')
 
 async function getAllMoviesOrShows(req,res) {
     const allMoviesOrShows = await MovieOrShow.find()
